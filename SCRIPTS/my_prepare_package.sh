@@ -42,7 +42,7 @@ bash ${OP_SC_DIR}/../PATCH/app/ShellCrash.sh
 # sed -i '/sysctl.d/d' feeds/packages/utils/dockerd/Makefile
 
 # 调整默认 LAN IP
-sed -i 's/192.168.1.1/192.168.24.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.4/g' package/base-files/files/bin/config_generate
 ################ 自定义部分 -End- ################
 
 
